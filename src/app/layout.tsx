@@ -54,22 +54,19 @@ export default function RootLayout({
               <span className="font-semibold tracking-tight">SPAITR</span>
             </a>
 
-            {/* Desktop nav: anchor links to each section (Brand Story, How It Works, etc.). */}
+            {/* Desktop nav: anchor links in panel order (Product Preview, Brand Story, Features, Proof). */}
             <nav className="hidden items-center gap-6 text-sm text-muted md:flex">
+              <a href="#preview" className="hover:text-text">
+                Product Preview
+              </a>
               <a href="#story" className="hover:text-text">
                 Brand Story
               </a>
               <a href="#how" className="hover:text-text">
-                How It Works
-              </a>
-              <a href="#preview" className="hover:text-text">
-                Product Preview
+                Features
               </a>
               <a href="#proof" className="hover:text-text">
                 Proof
-              </a>
-              <a href="#features" className="hover:text-text">
-                Features
               </a>
             </nav>
 

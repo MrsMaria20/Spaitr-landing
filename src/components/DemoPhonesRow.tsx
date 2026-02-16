@@ -26,13 +26,13 @@ export function DemoPhonesRow({ viewportHeight }: DemoPhonesRowProps) {
   ];
 
   return (
-    <div className="relative w-full max-w-5xl">
+    <div className="relative w-full max-w-6xl">
       {/* Subtle red ambient glow behind the phone row */}
       <div
         className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[320px] w-[90%] max-w-xl -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/15 blur-[80px]"
         aria-hidden
       />
-      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-12">
+      <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-[75px]">
         {phones.map(({ id, content, caption, activeNav }) => (
           <div key={id} className="flex flex-col items-center gap-4">
             <div

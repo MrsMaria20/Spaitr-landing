@@ -54,15 +54,15 @@ export default function Home() {
               every rep counts toward something bigger.
             </p>
             <div className="mx-auto mt-10 flex max-w-2xl flex-wrap justify-center gap-6 text-sm">
-              <div>
+              <div className="rounded-full border border-white/20 bg-white/5 px-4 py-2.5 ring-1 ring-primary/20 transition-all duration-300 hover:ring-primary/40 hover:shadow-[0_0_40px_-8px_rgba(229,56,59,0.2)]">
                 <span className="font-semibold text-primary">Passion</span>
                 <p className="mt-1 text-muted">Built by athletes who understand the grind</p>
               </div>
-              <div>
+              <div className="rounded-full border border-white/20 bg-white/5 px-4 py-2.5 ring-1 ring-primary/20 transition-all duration-300 hover:ring-primary/40 hover:shadow-[0_0_40px_-8px_rgba(229,56,59,0.2)]">
                 <span className="font-semibold text-primary">Purpose</span>
                 <p className="mt-1 text-muted">Helping teams reach their full potential</p>
               </div>
-              <div>
+              <div className="rounded-full border border-white/20 bg-white/5 px-4 py-2.5 ring-1 ring-primary/20 transition-all duration-300 hover:ring-primary/40 hover:shadow-[0_0_40px_-8px_rgba(229,56,59,0.2)]">
                 <span className="font-semibold text-primary">People</span>
                 <p className="mt-1 text-muted">Community-driven, team-focused approach</p>
               </div>
@@ -104,7 +104,7 @@ export default function Home() {
                   desc: "Visualize your progress with detailed charts and insights. Understand your strengths and areas for improvement.",
                 },
               ].map((item) => (
-                <div key={item.title} className="card-glass p-10">
+                <div key={item.title} className="card-glass p-10 ring-1 ring-primary/20 transition-all duration-300 hover:ring-primary/40 hover:shadow-[0_0_40px_-8px_rgba(229,56,59,0.2)]">
                   <h3 className="text-lg font-semibold">{item.title}</h3>
                   <p className="mt-3 leading-7 text-muted">{item.desc}</p>
                 </div>
