@@ -216,7 +216,7 @@ export default function Home() {
                   Request Beta Access
                 </button>
                 <p className="mt-3 text-xs text-subtle">
-                  (Next step: wire this button to an API route so submissions save somewhere.)
+              
                 </p>
               </div>
             </form>
